@@ -291,10 +291,9 @@ class Config:
         else:
             sandbox_settings = SandboxSettings()
         daytona_config = raw_config.get("daytona", {})
+        daytona_settings = None
         if daytona_config:
             daytona_settings = DaytonaSettings(**daytona_config)
-        else:
-            daytona_settings = DaytonaSettings()
 
         mcp_config = raw_config.get("mcp", {})
         mcp_settings = None
