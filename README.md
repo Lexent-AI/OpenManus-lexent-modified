@@ -11,8 +11,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/FoundationAgents/OpenManus.git
-cd OpenManus
+git clone https://github.com/Lexent-AI/OpenManus-lexent-modified.git
+cd OpenManus-lexent-modified
 ```
 
 3. Create a new virtual environment and activate it:
